@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jednoduchý chat</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="poNacteni()">
+    <h1>Jednoduchý chat</h1>
+
+    Přezdívka:
+    <input type="text" id="prezdivka">
+    <br><br>
+
+    <input type="text" id="zprava">
+    <button onclick="posliZpravu()">Odeslat</button>
+
+    <div id="seznamZprav">...</div>
+    
+  </body>
+</html>
